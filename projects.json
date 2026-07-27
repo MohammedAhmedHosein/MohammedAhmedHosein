@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Portfolio",
+    "repo": "MohammedAhmedHosein/portfolio",
+    "description": "Personal portfolio — responsive layout, motion, and a contact flow",
+    "tags": ["JavaScript", "CSS", "Vercel"]
+  },
+  {
+    "name": "ML Project",
+    "repo": "MohammedAhmedHosein/MLProject",
+    "description": "Machine learning pipeline: preprocessing, training and evaluation",
+    "tags": ["Python", "Pandas", "scikit-learn"]
+  },
+  {
+    "name": "Library Management",
+    "repo": "MohammedAhmedHosein/LibraryManagementSystem",
+    "description": "Catalogue, lending and member management for a library",
+    "tags": ["C#", "ASP.NET", "SQL"]
+  },
+  {
+    "name": "Student System",
+    "repo": "MohammedAhmedHosein/StudentSystem",
+    "description": "Student records, enrolment and grading administration",
+    "tags": ["C#", "ASP.NET", "SQL"]
+  }
+]

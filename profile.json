@@ -1,0 +1,38 @@
+{
+  "name": "Mohammed Ahmed Hosein",
+  "prompt": "MohammedAhmedHosein - % ./profile.sh --live",
+  "chip": "@MohammedAhmedHosein",
+  "footer": "More about me & projects below in README",
+  "photos": ["assets/me-cutout.png"],
+  "sections": [
+    {
+      "rows": [
+        ["Subject", "Mohammed Ahmed Hosein"],
+        ["Role", "Full-Stack Software Engineer"],
+        ["Origin", "Dubai, United Arab Emirates"],
+        ["Education", "BSc Computer Science, Philadelphia University (1st, 90.6%)"],
+        ["Status", "Building + Shipping + Scaling"],
+        ["ToolChain", "VS Code, Git, Docker, Postman, Figma"]
+      ]
+    },
+    {
+      "rows": [
+        ["Core.Lang", "TypeScript, JavaScript, Java"],
+        ["Core.Frontend", "React, Next.js, Angular, React Native, Mantine"],
+        ["Core.Backend", "Node.js, Bun + Hono, Spring Boot"],
+        ["Core.Database", "PostgreSQL, MySQL, MongoDB, Supabase, Firebase"],
+        ["Core.Infra", "Vercel, Cloudflare, Docker, Microservices, MVC"]
+      ]
+    },
+    {
+      "header": "Contact",
+      "rows": [
+        ["Grid.Phone", "+971 52 839 9445"],
+        ["Grid.LinkedIn", "mohammed-ahmed-hosein-68a7b0226"],
+        ["Grid.GitHub", "@MohammedAhmedHosein"],
+        ["Grid.Instagram", "@f4.g"],
+        ["Grid.Portfolio", "coming soon"]
+      ]
+    }
+  ]
+}
