@@ -28,15 +28,12 @@ jobs:
         run: python3 .github/scripts/fetch_data.py
 
       - name: Generate projects.svg
-        run: |
-          mkdir -p out
-          python3 .github/scripts/generate_projects.py merged.json out
+        run: python3 .github/scripts/generate_projects.py merged.json .
 
-      - name: Push to projects branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: projects
-          build_dir: out
-          commit_message: "Update projects panel [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects.svg projects-light.svg
+          git diff --staged --quiet || git commit -m "Update projects panel [skip ci]"
+          git push
